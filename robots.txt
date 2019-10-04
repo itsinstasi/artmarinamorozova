@@ -1,0 +1,2 @@
+﻿User-agent: *
+Sitemap: http://artmarinamorozova.itsinsta.site//sitemap.xml

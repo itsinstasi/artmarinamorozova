@@ -33,7 +33,7 @@
     <link rel="image_src" href="https://scontent-arn2-2.cdninstagram.com/vp/d8a9cb56ef4dbe1393c370b46ec4e8dd/5E20DBF3/t51.2885-15/e15/11312461_798782863550809_1160724982_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" />
     <meta name="robots" content="INDEX, FOLLOW" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://artmarinamorozova.itsinsta.site//posts/xkarlsonrest-xsinishalazarevich-xhalipova84-2.html" />
+    <meta property="og:url" content="https://artmarinamorozova.itsinsta.site//posts/xkarlsonrest-xsinishalazarevich-xhalipova84-2.html" />
     <meta property="og:image" content="https://scontent-arn2-2.cdninstagram.com/vp/d8a9cb56ef4dbe1393c370b46ec4e8dd/5E20DBF3/t51.2885-15/e15/11312461_798782863550809_1160724982_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="612"/>
@@ -42,6 +42,9 @@
     <meta property="og:description" content="@karlsonrest @sinishalazarevich @halipova84 Савичева !" />
     <meta property="og:locale" content="Ru-ru" />
     <meta property="og:site_name" content="artmarinamorozova" />
+
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
 
 </head>
 <body>
@@ -54,7 +57,7 @@
 		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
     </noscript>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" id="js-header">
 			<div class="container">
 				<div class="header__wrap">
 					<div class="header__left">
@@ -68,249 +71,255 @@
 			</div>
 		</header>	
 		<div class="main">
-			<div class="stories" style="display: none;">
+			<div class="stories">
 				<div class="container">
-					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="art marina morozova">
-								<a href="../tags/./art-marina-morozova.html">
-									<div class="stories__slide-pic"><img src="../img/og/art-marina-morozova.png" alt="art marina morozova" /></div>
-									<div class="stories__slide-txt">art marina morozova</div>
-								</a>
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="art marina morozova">
+										<a href="../tags/./art-marina-morozova.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/art-marina-morozova.png);"></div>
+											<div class="stories__slide-txt">art marina morozova</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="modus friends">
+										<a href="../tags/./modus-friends.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/modus-friends.png);"></div>
+											<div class="stories__slide-txt">modus friends</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="love">
+										<a href="../tags/./love.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/love.png);"></div>
+											<div class="stories__slide-txt">love</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="moscow">
+										<a href="../tags/./moscow.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/moscow.png);"></div>
+											<div class="stories__slide-txt">moscow</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="greece">
+										<a href="../tags/./greece.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/greece.png);"></div>
+											<div class="stories__slide-txt">greece</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="family day by marina morozova">
+										<a href="../tags/./family-day-by-marina-morozova.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/family-day-by-marina-morozova.png);"></div>
+											<div class="stories__slide-txt">family day by marina morozova</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="aquar ellby marina morozova">
+										<a href="../tags/./aquar-ellby-marina-morozova.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/aquar-ellby-marina-morozova.png);"></div>
+											<div class="stories__slide-txt">aquar ellby marina morozova</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="aquar elle by marina morozova">
+										<a href="../tags/./aquar-elle-by-marina-morozova.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/aquar-elle-by-marina-morozova.png);"></div>
+											<div class="stories__slide-txt">aquar elle by marina morozova</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="marina alexisconcept">
+										<a href="../tags/./marina-alexisconcept.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/marina-alexisconcept.png);"></div>
+											<div class="stories__slide-txt">marina alexisconcept</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="mila marsel">
+										<a href="../tags/./mila-marsel.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/mila-marsel.png);"></div>
+											<div class="stories__slide-txt">mila marsel</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="weare we are family the best">
+										<a href="../tags/./weare-we-are-family-the-best.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/weare-we-are-family-the-best.png);"></div>
+											<div class="stories__slide-txt">weare we are family the best</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="cook ing toge ther">
+										<a href="../tags/./cook-ing-toge-ther.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/cook-ing-toge-ther.png);"></div>
+											<div class="stories__slide-txt">cook ing toge ther</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="готовим вместе">
+										<a href="../tags/./gotovim-vmeste.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/gotovim-vmeste.png);"></div>
+											<div class="stories__slide-txt">готовим вместе</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="the best promo team">
+										<a href="../tags/./the-best-promo-team.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/the-best-promo-team.png);"></div>
+											<div class="stories__slide-txt">the best promo team</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="мечты маришки">
+										<a href="../tags/./mechty-marishki.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/mechty-marishki.png);"></div>
+											<div class="stories__slide-txt">мечты маришки</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="fash ion">
+										<a href="../tags/./fash-ion.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/fash-ion.png);"></div>
+											<div class="stories__slide-txt">fash ion</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="extra moscow">
+										<a href="../tags/./extra-moscow.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/extra-moscow.png);"></div>
+											<div class="stories__slide-txt">extra moscow</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="inspirat ion">
+										<a href="../tags/./inspirat-ion.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/inspirat-ion.png);"></div>
+											<div class="stories__slide-txt">inspirat ion</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="modus">
+										<a href="../tags/./modus.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/modus.png);"></div>
+											<div class="stories__slide-txt">modus</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="instyle">
+										<a href="../tags/./instyle.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/instyle.png);"></div>
+											<div class="stories__slide-txt">instyle</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="happy people">
+										<a href="../tags/./happy-people.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/happy-people.png);"></div>
+											<div class="stories__slide-txt">happy people</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="korston">
+										<a href="../tags/./korston.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/korston.png);"></div>
+											<div class="stories__slide-txt">korston</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="greece inaqur elle">
+										<a href="../tags/./greece-inaqur-elle.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/greece-inaqur-elle.png);"></div>
+											<div class="stories__slide-txt">greece inaqur elle</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="мечты сбываются">
+										<a href="../tags/./mechty-sbyvayutsya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/mechty-sbyvayutsya.png);"></div>
+											<div class="stories__slide-txt">мечты сбываются</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="max imkids">
+										<a href="../tags/./max-imkids.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/max-imkids.png);"></div>
+											<div class="stories__slide-txt">max imkids</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="weare family">
+										<a href="../tags/./weare-family.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/weare-family.png);"></div>
+											<div class="stories__slide-txt">weare family</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="weare the best">
+										<a href="../tags/./weare-the-best.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/weare-the-best.png);"></div>
+											<div class="stories__slide-txt">weare the best</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="a the ns">
+										<a href="../tags/./a-the-ns.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/a-the-ns.png);"></div>
+											<div class="stories__slide-txt">a the ns</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="aquar elle">
+										<a href="../tags/./aquar-elle.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/aquar-elle.png);"></div>
+											<div class="stories__slide-txt">aquar elle</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="love story">
+										<a href="../tags/./love-story.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/love-story.png);"></div>
+											<div class="stories__slide-txt">love story</div>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="modus friends">
-								<a href="../tags/./modus-friends.html">
-									<div class="stories__slide-pic"><img src="../img/og/modus-friends.png" alt="modus friends" /></div>
-									<div class="stories__slide-txt">modus friends</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="love">
-								<a href="../tags/./love.html">
-									<div class="stories__slide-pic"><img src="../img/og/love.png" alt="love" /></div>
-									<div class="stories__slide-txt">love</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="moscow">
-								<a href="../tags/./moscow.html">
-									<div class="stories__slide-pic"><img src="../img/og/moscow.png" alt="moscow" /></div>
-									<div class="stories__slide-txt">moscow</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="greece">
-								<a href="../tags/./greece.html">
-									<div class="stories__slide-pic"><img src="../img/og/greece.png" alt="greece" /></div>
-									<div class="stories__slide-txt">greece</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="family day by marina morozova">
-								<a href="../tags/./family-day-by-marina-morozova.html">
-									<div class="stories__slide-pic"><img src="../img/og/family-day-by-marina-morozova.png" alt="family day by marina morozova" /></div>
-									<div class="stories__slide-txt">family day by marina morozova</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="aquar ellby marina morozova">
-								<a href="../tags/./aquar-ellby-marina-morozova.html">
-									<div class="stories__slide-pic"><img src="../img/og/aquar-ellby-marina-morozova.png" alt="aquar ellby marina morozova" /></div>
-									<div class="stories__slide-txt">aquar ellby marina morozova</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="aquar elle by marina morozova">
-								<a href="../tags/./aquar-elle-by-marina-morozova.html">
-									<div class="stories__slide-pic"><img src="../img/og/aquar-elle-by-marina-morozova.png" alt="aquar elle by marina morozova" /></div>
-									<div class="stories__slide-txt">aquar elle by marina morozova</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="marina alexisconcept">
-								<a href="../tags/./marina-alexisconcept.html">
-									<div class="stories__slide-pic"><img src="../img/og/marina-alexisconcept.png" alt="marina alexisconcept" /></div>
-									<div class="stories__slide-txt">marina alexisconcept</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="mila marsel">
-								<a href="../tags/./mila-marsel.html">
-									<div class="stories__slide-pic"><img src="../img/og/mila-marsel.png" alt="mila marsel" /></div>
-									<div class="stories__slide-txt">mila marsel</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="weare we are family the best">
-								<a href="../tags/./weare-we-are-family-the-best.html">
-									<div class="stories__slide-pic"><img src="../img/og/weare-we-are-family-the-best.png" alt="weare we are family the best" /></div>
-									<div class="stories__slide-txt">weare we are family the best</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="cook ing toge ther">
-								<a href="../tags/./cook-ing-toge-ther.html">
-									<div class="stories__slide-pic"><img src="../img/og/cook-ing-toge-ther.png" alt="cook ing toge ther" /></div>
-									<div class="stories__slide-txt">cook ing toge ther</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="мечты маришки">
-								<a href="../tags/./mechty-marishki.html">
-									<div class="stories__slide-pic"><img src="../img/og/mechty-marishki.png" alt="мечты маришки" /></div>
-									<div class="stories__slide-txt">мечты маришки</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="готовим вместе">
-								<a href="../tags/./gotovim-vmeste.html">
-									<div class="stories__slide-pic"><img src="../img/og/gotovim-vmeste.png" alt="готовим вместе" /></div>
-									<div class="stories__slide-txt">готовим вместе</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="the best promo team">
-								<a href="../tags/./the-best-promo-team.html">
-									<div class="stories__slide-pic"><img src="../img/og/the-best-promo-team.png" alt="the best promo team" /></div>
-									<div class="stories__slide-txt">the best promo team</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="fash ion">
-								<a href="../tags/./fash-ion.html">
-									<div class="stories__slide-pic"><img src="../img/og/fash-ion.png" alt="fash ion" /></div>
-									<div class="stories__slide-txt">fash ion</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="extra moscow">
-								<a href="../tags/./extra-moscow.html">
-									<div class="stories__slide-pic"><img src="../img/og/extra-moscow.png" alt="extra moscow" /></div>
-									<div class="stories__slide-txt">extra moscow</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="inspirat ion">
-								<a href="../tags/./inspirat-ion.html">
-									<div class="stories__slide-pic"><img src="../img/og/inspirat-ion.png" alt="inspirat ion" /></div>
-									<div class="stories__slide-txt">inspirat ion</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="modus">
-								<a href="../tags/./modus.html">
-									<div class="stories__slide-pic"><img src="../img/og/modus.png" alt="modus" /></div>
-									<div class="stories__slide-txt">modus</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="instyle">
-								<a href="../tags/./instyle.html">
-									<div class="stories__slide-pic"><img src="../img/og/instyle.png" alt="instyle" /></div>
-									<div class="stories__slide-txt">instyle</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="happy people">
-								<a href="../tags/./happy-people.html">
-									<div class="stories__slide-pic"><img src="../img/og/happy-people.png" alt="happy people" /></div>
-									<div class="stories__slide-txt">happy people</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="мечты сбываются">
-								<a href="../tags/./mechty-sbyvayutsya.html">
-									<div class="stories__slide-pic"><img src="../img/og/mechty-sbyvayutsya.png" alt="мечты сбываются" /></div>
-									<div class="stories__slide-txt">мечты сбываются</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="greece inaqur elle">
-								<a href="../tags/./greece-inaqur-elle.html">
-									<div class="stories__slide-pic"><img src="../img/og/greece-inaqur-elle.png" alt="greece inaqur elle" /></div>
-									<div class="stories__slide-txt">greece inaqur elle</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="korston">
-								<a href="../tags/./korston.html">
-									<div class="stories__slide-pic"><img src="../img/og/korston.png" alt="korston" /></div>
-									<div class="stories__slide-txt">korston</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="max imkids">
-								<a href="../tags/./max-imkids.html">
-									<div class="stories__slide-pic"><img src="../img/og/max-imkids.png" alt="max imkids" /></div>
-									<div class="stories__slide-txt">max imkids</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="weare family">
-								<a href="../tags/./weare-family.html">
-									<div class="stories__slide-pic"><img src="../img/og/weare-family.png" alt="weare family" /></div>
-									<div class="stories__slide-txt">weare family</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="weare the best">
-								<a href="../tags/./weare-the-best.html">
-									<div class="stories__slide-pic"><img src="../img/og/weare-the-best.png" alt="weare the best" /></div>
-									<div class="stories__slide-txt">weare the best</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="a the ns">
-								<a href="../tags/./a-the-ns.html">
-									<div class="stories__slide-pic"><img src="../img/og/a-the-ns.png" alt="a the ns" /></div>
-									<div class="stories__slide-txt">a the ns</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="love story">
-								<a href="../tags/./love-story.html">
-									<div class="stories__slide-pic"><img src="../img/og/love-story.png" alt="love story" /></div>
-									<div class="stories__slide-txt">love story</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="aquar elle">
-								<a href="../tags/./aquar-elle.html">
-									<div class="stories__slide-pic"><img src="../img/og/aquar-elle.png" alt="aquar elle" /></div>
-									<div class="stories__slide-txt">aquar elle</div>
-								</a>
-							</div>
-						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 					</div>
 				</div>
 			</div>
@@ -335,15 +344,13 @@
 						<div class="article-main">
 							<div class="article-content">
 								<figure>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/d8a9cb56ef4dbe1393c370b46ec4e8dd/5E20DBF3/t51.2885-15/e15/11312461_798782863550809_1160724982_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt="">
+									<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/d8a9cb56ef4dbe1393c370b46ec4e8dd/5E20DBF3/t51.2885-15/e15/11312461_798782863550809_1160724982_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt="">
 								</figure> 
 								<p><a href="https://instagram.com/karlsonrest" target="_blank">@karlsonrest</a> <a href="https://instagram.com/sinishalazarevich" target="_blank">@sinishalazarevich</a> <a href="https://instagram.com/halipova" target="_blank">@halipova</a>84 Савичева !!!new</p> 
 							</div>
 						<div>
 							<a href="https://www.instagram.com/p/aRJinxrohw/" 
-								target="_blank" class="links-page-list__item-link">
-								<strong>Комментировать</strong>
-								<span>Instagram</span>
+								target="_blank" class="links-page-btn shake"><strong>Комментировать</strong>&nbsp;<span>Instagram</span>
 							</a>
 						</div>
 
@@ -385,80 +392,82 @@
 						</aside>
 					</div>
 					<section class="article-more">
-						<h2 class="article-more__title">ПОПУЛЯРНЫЕ</h2>
-						<div class="article-more__list">
-							<a href="./uzhe-khochetsya-tantsev-.html" class="article-more__item">
-								<div class="article-more__item-pic">
-									<div class="article-more__item-pic-blind">
-										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+						<div class="container">
+							<h2 class="article-more__title">ПОПУЛЯРНЫЕ</h2>
+							<div class="article-more__list">
+								<a href="./uzhe-khochetsya-tantsev-.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/82ebd10e52b07d031408b23ac60dcdac/5E5F4168/t51.2885-15/e35/p1080x1080/66285193_471405083682875_3506860613018341719_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt="Уже хочется танцев .">
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/5e5853873e74344fc4f721b821fc695b/5E37B468/t51.2885-15/e35/p1080x1080/66285193_471405083682875_3506860613018341719_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt="Уже хочется танцев .">
-								</div>
-								<div class="article-more__item-name">Уже хочется танцев .</div>
-							</a>
-							<a href="./s-dnyom-rozhdeniya-lyubimyy-sasha-xalexxkor-.html" class="article-more__item">
-								<div class="article-more__item-pic">
-									<div class="article-more__item-pic-blind">
-										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+									<div class="article-more__item-name">Уже хочется танцев .</div>
+								</a>
+								<a href="./s-dnyom-rozhdeniya-lyubimyy-sasha-xalexxkor-.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/9ff8baeef297dfb7f670e82a0b955244/5E2E7887/t51.2885-15/e35/s1080x1080/62265787_2731669046907786_5666005842076073659_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt="С Днём Рождения любимый Саша @alex_kor !">
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/9ff8baeef297dfb7f670e82a0b955244/5E2E7887/t51.2885-15/e35/s1080x1080/62265787_2731669046907786_5666005842076073659_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt="С Днём Рождения любимый Саша @alex_kor !">
-								</div>
-								<div class="article-more__item-name">С Днём Рождения любимый Саша @alex_kor !</div>
-							</a>
-							<a href="./hashgreece-1.html" class="article-more__item">
-								<div class="article-more__item-pic">
-									<div class="article-more__item-pic-blind">
-										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+									<div class="article-more__item-name">С Днём Рождения любимый Саша @alex_kor !</div>
+								</a>
+								<a href="./hashgreece-1.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/258fcd98bad03670cd35cf4d27a6767e/5E44124B/t51.2885-15/e15/10611272_351843264964573_281053884_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt="">
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/8c741277aa3c74b2f8fbbf7394cb3fad/5E1C854B/t51.2885-15/e15/10611272_351843264964573_281053884_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt="">
-								</div>
-								<div class="article-more__item-name"></div>
-							</a>
-							<a href="./ulybka-kak-maska-skryvaet-poroy-mnogo-sekretov-.html" class="article-more__item">
-								<div class="article-more__item-pic">
-									<div class="article-more__item-pic-blind">
-										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+									<div class="article-more__item-name"></div>
+								</a>
+								<a href="./ulybka-kak-maska-skryvaet-poroy-mnogo-sekretov-.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/7769656113b77c07c6cc49e2c926855d/5E41586C/t51.2885-15/e15/10611014_1477303409184050_173235691_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt="Улыбка как маска скрывает порой много секретов !">
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/bd4a2a22e2af3e18c775a32581a2f181/5E19CB6C/t51.2885-15/e15/10611014_1477303409184050_173235691_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt="Улыбка как маска скрывает порой много секретов !">
-								</div>
-								<div class="article-more__item-name">Улыбка как маска скрывает порой много секретов !</div>
-							</a>
-							<a href="./hashgreece-2.html" class="article-more__item">
-								<div class="article-more__item-pic">
-									<div class="article-more__item-pic-blind">
-										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+									<div class="article-more__item-name">Улыбка как маска скрывает порой много секретов !</div>
+								</a>
+								<a href="./hashgreece-2.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/2af678dc0996f6da2cf833b74977ee38/5E44EC09/t51.2885-15/e15/10598557_343324225819535_2098951357_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt="">
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/3766d1d7a0566ad83591a20d90184585/5E1D5F09/t51.2885-15/e15/10598557_343324225819535_2098951357_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt="">
-								</div>
-								<div class="article-more__item-name"></div>
-							</a>
-							<a href="./hashastirbeach.html" class="article-more__item">
-								<div class="article-more__item-pic">
-									<div class="article-more__item-pic-blind">
-										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+									<div class="article-more__item-name"></div>
+								</a>
+								<a href="./hashastirbeach.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/560762b3965fb5732ff6fdb4f3e8b84a/5E2DA904/t51.2885-15/e15/10576107_1448639085413089_885098561_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt="">
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/560762b3965fb5732ff6fdb4f3e8b84a/5E2DA904/t51.2885-15/e15/10576107_1448639085413089_885098561_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt="">
-								</div>
-								<div class="article-more__item-name"></div>
-							</a>
-							<a href="./zakat-oznachaet-tol-ko-nachalo-x-nachalo-nochi-polnoy-luny.html" class="article-more__item">
-								<div class="article-more__item-pic">
-									<div class="article-more__item-pic-blind">
-										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+									<div class="article-more__item-name"></div>
+								</a>
+								<a href="./zakat-oznachaet-tol-ko-nachalo-x-nachalo-nochi-polnoy-luny.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/c338822e149645464c1570ddc67e2344/5DAA4C6D/t51.2885-15/e15/10522820_847239281967939_1711754726_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt="Закат означает только начало , начало ночи полной луны.">
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/c3efbd23c52759e9cd13eddc6bf91f29/5DA5066D/t51.2885-15/e15/10522820_847239281967939_1711754726_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt="Закат означает только начало , начало ночи полной луны.">
-								</div>
-								<div class="article-more__item-name">Закат означает только начало , начало ночи полной луны.</div>
-							</a>
-							<a href="./kazhdyy-den--kak-volshebstvo.html" class="article-more__item">
-								<div class="article-more__item-pic">
-									<div class="article-more__item-pic-blind">
-										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+									<div class="article-more__item-name">Закат означает только начало , начало ночи полной луны.</div>
+								</a>
+								<a href="./kazhdyy-den--kak-volshebstvo.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/fee3ced8862da26dfa2b2f7be74c8bf4/5E4374A4/t51.2885-15/e15/10570203_1450832978528847_238913060_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt="Каждый день как волшебство!">
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/67d2e8d5b99bc06d86028a246e785176/5E1BE7A4/t51.2885-15/e15/10570203_1450832978528847_238913060_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt="Каждый день как волшебство!">
-								</div>
-								<div class="article-more__item-name">Каждый день как волшебство!</div>
-							</a>
+									<div class="article-more__item-name">Каждый день как волшебство!</div>
+								</a>
+							</div>
 						</div>
 					</section>		
 				</div>			
@@ -498,11 +507,12 @@
 			</div>
 		</div>		
 	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="../js/vendors/jquery.min.js"></script>
-	<script src="../js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="../js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="../js/jquery.init.js"></script>
 	<!--my scripts-->

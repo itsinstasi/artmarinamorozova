@@ -68,7 +68,7 @@
 						<div class="header__title">Marina Morozova</div>
 					</div>
 					<div id="settingsContainer" class="header__right" style="display:none">
-						<button onclick="window.open('http://itsinsta.site/page.html?project=artmarinamorozova');" class="btn stories-popup__buy">Настроить</button>
+						<button onclick="window.open('http://itsinsta.site/page.html?project=artmarinamorozova', '_self');" class="btn stories-popup__buy">Настроить</button>
 					</div>
 				</div>
 			</div>
@@ -155,7 +155,7 @@
 
 
 						<div class="links-page-btn-pic">
-							<center><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/80431096_1266641456866806_8925319410635927637_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=6tlu_PvMi9wAX_gFPNE&oh=6389faec79154a09ba43c1011e3c84c9&oe=5EA38458" alt="">
+							<center><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/80431096_1266641456866806_8925319410635927637_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=qqsuzqycLMMAX-I_3ba&oh=90c86d1d1cc2ed22a41a020cecb147ba&oe=5EA38458" alt="">
 							</img></center>
 						</div>
 
@@ -227,7 +227,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
 $(document).ready(function(){
 	var lid = getUrlParameter("lid");
-	if (lid) {
+	if (lid && lid != "true") {
         localStorage.setItem("hasToken", true);
 
 		$("#settingsContainer").show();
